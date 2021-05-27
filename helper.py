@@ -38,8 +38,8 @@ def select_platform():
     markup.add(InlineKeyboardButton("Facebook", callback_data="facebook1"),
                InlineKeyboardButton("Twitter", callback_data="twitter2"),
                InlineKeyboardButton("Instagram", callback_data="instagram3"),
-               InlineKeyboardButton("LinkedIn", callback_data="linkedIn4"),
-               InlineKeyboardButton("Pinterest", callback_data="ointerest5"),
+               InlineKeyboardButton("LinkedIn", callback_data="linkedin4"),
+               InlineKeyboardButton("Pinterest", callback_data="pinterest5"),
                InlineKeyboardButton("YouTube", callback_data="youTube6"),
                InlineKeyboardButton("Alternate size", callback_data="7Alternatesize"))
     return markup
