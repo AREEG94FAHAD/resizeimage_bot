@@ -3,7 +3,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot.util import content_type_media
 from PIL import Image
-from .helper import select_platform, resize_again, platforms, get_random_string, select_type
+from helper import select_platform, resize_again, platforms, get_random_string, select_type
 
 APITOKENRESIZE = os.environ.get('APITOKENRESIZE')
 
